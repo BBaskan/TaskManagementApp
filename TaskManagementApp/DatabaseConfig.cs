@@ -9,7 +9,7 @@ namespace TaskManagementApp
     public static class DatabaseConfig
     {
 
-        public static readonly string ConnectionString = "Server=DESKTOP-QBBSBCF;Database=TaskManagementDB;Trusted_Connection=True;";
+        public static readonly string ConnectionString = ""; //use your database string here
     }
 
 }
