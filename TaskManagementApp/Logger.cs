@@ -4,7 +4,7 @@ using System.Data;
 
 public static class Logger
 {
-    private static string connectionString = "Server=DESKTOP-QBBSBCF;Database=TaskManagementDB;Trusted_Connection=True;";
+    private static string connectionString = ""; //use your database string here
 
     public static void WriteLog(string eventType, string details)
     {
